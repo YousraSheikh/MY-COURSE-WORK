@@ -2,10 +2,11 @@
 	color: grey;
 }
 .divA{
-color: grey;
+color: black;
+margin: 10px;
+background-color: grey
 }
-.div1{
-	width: 100%;
-	height: 20vh;
-	margin: 10px;
+.divB{
+	color: grey
+	bold
 }
