@@ -4,11 +4,26 @@
 	<title>Login form</title>
 </head>
 <body>
+	<style>
+		.divb{
+			margin: 10px;
+			padding: 5px;
+		}
+		.divZ{
+			background-color:black;
+			margin: 10px;
+			padding: 4px; 
+			color: white;
+		}
+	</style>
 <div class="pic">
 <center><img src="image/navtaclogo.jpg"></center>
-<div class="divE">
-	<label>Email Address</label><br>
-	<input type="email" name="email" placeholder="Email">
+<div style="width: 100%;height: 50%;background-color: grey;">
+	<label class="divb">Email Address</label><br>
+	<input class="divb" type="email" name="email" placeholder="Email"><br><br>
+	<label class="divb">Password</label><br>
+	<input class="divb" type="password" name="password" placeholder="Type Password here"><br><br>
+	<button class="divZ">Submit</button>
 </div>
 </body>
 </html>
