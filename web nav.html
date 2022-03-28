@@ -1,56 +1,88 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Nav Bar</title>
+	<title>Navbar</title>
 </head>
 <body>
 	<style>
-		/*.A{
-			margin-right: 100vh;
-		}
-		.B{
-			 
-
-		}
-		.C{
-			width: 100%;
-			height: 10vh;
-			background-color: red;
 		
-			color: white;
-		}*/
 		ul{
 			display: flex;
-			margin: 5px;
-			padding: 10px;
+			margin: 0%;
+			padding: 0%;
 			list-style: none;
 			background-color: ;
 		}
-		/*.nav1{
-			margin-right: 2%;
-			color: black;
-		}*/
+		
 		.pic{
 			width: 35vh;
 
 		}
-		/*.s{
-			margin:10%;
-		}*/
 		.nav{
 			background-color: black;
 		    color: white;
+		    padding: 3vh;
 		}
 		.search{
-			width: 550%;
+			width: 400%;
 		    margin:5%;
 		    padding: 5%;
 		    margin-left: 30%;
 		    border: solid;
 		    border-color: maroon;
 		}
+		.div{
+			width: 100%;
+			height: 70vh;
+			background-color: lightgrey;
+			display: flex;
+			/*background-image: url('building.jpg');*/
+		}
+		#A{
+			display: flex;
+			flex-direction: column;
+			margin-left: 10%;
+		}
+		hr{
+			width: 100%;
+			color: black;
+		}
+		.div1{
+			background-image: url(image/camera2.jpg);
+			width: 70%;
+			height: 70vh;
+		}
+		.div2{
+			display: flex;
+			flex-direction: column;
+			margin: 15% 10% 5%;
+			font-size: 150%;
+		}
+		#Y{
+			margin-left:6%;
+			border-radius: 0px;
+			border:solid;
+			padding: 1% 2% ;
+			margin-top: 2%;
+			border-color: grey;
+		}
+		.X{
+			margin: 2% 2%;
+		}
+		.W{
+			width: 100%
+			height:100vh;
+		}
+		#Q{
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+			height: 100%;
+			border:solid;
+			border-color: red;
+		}
 	</style>
-	<ul class="nav1">
+	<ul>
 		<li style="margin-left: 1%;">WELCOME TO NEARSTORE</li>
 		<li style="margin-left: 40%;">USD</li>
 		<li style="margin-left: 3%;">ENG</li>
@@ -74,14 +106,14 @@
 					<option>Others</option>
 				</select>
 			</li>
-			<li style="margin-left: 50%; margin-top: 1%;"  >Call us at:<br>03XX-XXXXXXX</li>
-			<li style="margin-left: 2%; margin-top: 1%;">Wishlist</li>
-			<li style="margin-left: 2%; margin-top: 1%;">Compare</li>
-			<li style="margin-left: 2%; margin-top: 1%;">Cart</li>
+			<li style="margin-left: 43%; margin-top: 0%;">Call us at:<br>03XX-XXXXXXX</li>
+			<li style="margin-left: 2%; margin-top: 0%;">Wishlist</li>
+			<li style="margin-left: 2%; margin-top: 0%;">Compare</li>
+			<li style="margin-left: 2%; margin-top: 0%;">Cart</li>
 		</ul>
 
 	<ul class="nav">
-		<li>Documents</li>
+		<li class="A">Documents</li>
 		<li style="margin-left: 10%;">Home</li>
 		<li style="margin-left: 2%;">Shop</li>
 		<li style="margin-left: 2%;">Vendor</li>
@@ -90,11 +122,52 @@
 		<li style="margin-left: 45%;">Track Order</li>
 		<li style="margin-left: 2%;">Daily Detailes</li>
 	</ul>
+	<div class="div">
+	<div style="width: 30%;height: 70vh;">
+		<ul id="A">
+		<li style="margin-top: 2%;">Fashion</li><hr>
+		<li>Home and gardens</li><hr>
+		<li>Electronics</li><hr>
+		<li>Furniture</li><hr>
+		<li>Health and beauty</li><hr>	
+		<li>Gifts </li><hr>
+		<li>Toys</li><hr>
+		<li>Cooking and food</li><hr>
+		<li>Cameras</li><hr>
+		<li>Electronics</li><hr>
+		<li>Accessories</li><hr>
+		</ul>
+	</div>
+	<div class="div1">
+		<ul class="div2">
+			<li style="color: red;">FROM ONLINE STORE</li>
+			<li style="font-size: bold;">Nike Shoes</li>
+			<li>Recommended</li>
+			<li>Free shiping on all orders over $99.9</li>
+			<li><button style="padding: 2vh;margin-top: 2%;">SHOP NOW</button></li>
+		</ul>
+	</div>
+	</div>
+	<div class="W">
+	<ul >
+		<li id="Y">Money back Gurantee<br>Any back within 3 days</li>
+		<li id="Y">Customer Support<br>Call or email us 24/7</li>
+		<li id="Y">Free shipping & returns<br>For all orders over $99</li>
+		<li id="Y">Secure payment<br>we ensure secure payments</li>
+	</ul>
+    </div>
+	<img src="image/pic1.jpg" class="X">
+	<img src="image/pic2.jpg" class="X">
+	<img src="image/pic3.jpg" class="X">
+	<h1>Hot Offers For You</h1>
 
-
-
-
-
-</div>
+	<div id="Q">
+		<img src="image/nike.jpg" style="width:40%, height:25%;">
+		<h3>Lorem ipsum dolor sit amet,<br>$32<br>
+		<span>lorem ipsum dollor sit amet, consectetuer adipscing elit, sed diam nonummy nibh euis</span></h3>
+		<img src="image/nike.jpg" style="width:40%, height:25%;">
+		<h3>Lorem ipsum dolor sit amet,<br>$32<br>
+		<span>lorem ipsum dollor sit amet, consectetuer adipscing elit, sed diam nonummy nibh euis</span></h3>
+	</div>	
 </body>
 </html>
