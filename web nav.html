@@ -58,7 +58,33 @@
 			margin: 15% 10% 5%;
 			font-size: 150%;
 		}
-		#Y{
+		/*.circle{
+			margin-left: 200px;
+			height: 10vh;
+			width: 20px;
+		}
+		.round{
+			border:3px;
+			border-radius: 50%;
+			border:solid red;
+		}
+
+*/		
+          
+        .circles{
+        	display: flex;
+        	 }
+        .rounded > img{
+        	margin-left: 500px;
+        	border:solid red;
+            border-radius: 50%;
+  }
+            .rounded2 > img{
+        	margin-left: 50px;
+        	border:solid black;
+            border-radius: 50%;}
+
+        #Y{
 			margin-left:6%;
 			border-radius: 0px;
 			border:solid;
@@ -73,13 +99,39 @@
 			width: 100%
 			height:100vh;
 		}
-		#Q{
+		.D{
+			display: flex;
+			width: 100%;
+			height: 40vh;
+			
+		}
+		#d{
+			margin:2% 3%;
+			width: 50%;
+			height: 40vh;
+			border-color: ;
+			border:solid red;
+			display: flex;
+
+		}
+		#e{
+			margin:2% 3%;
+			width: 50%;
+			height:40vh;
+			display: flex;
+			border:solid red;
+
+		}
+		.sel{
+			margin: 0% 2%;
+		}
+		/*#Q{
 			display: flex;
 			flex-direction: row;
 			width: 100%;
 			height: 100%;
 			border:solid;
-			/*border-color:red;*/
+			border-color:red;
 		}
 		.R{
 			border-color: red;
@@ -89,7 +141,7 @@
 		.T{
 			display: flex;
 			flex-direction: column;
-		}
+		}*/
 
 	</style>
 	<ul>
@@ -158,6 +210,14 @@
 		</ul>
 	</div>
 	</div>
+	<div class="circles">
+        <div class="rounded"><img src="image/headphones.jpg" height="90px" width="80px"></div>
+         <div class="rounded2"><img src="image/headphones.jpg" height="90px" width="80px"></div>
+         <div class="rounded2"><img src="image/headphones.jpg" height="90px" width="80px"></div>
+         <div class="rounded2"><img src="image/headphones.jpg" height="90px" width="80px"></div>
+    </div>
+
+
 	<div class="W">
 	<ul >
 		<li id="Y">Money back Gurantee<br>Any back within 3 days</li>
@@ -166,20 +226,49 @@
 		<li id="Y">Secure payment<br>we ensure secure payments</li>
 	</ul>
     </div>
-	<img src="image/pic1.jpg" class="X">
+    <div></div>
+	<!-- <img src="image/pic1.jpg" class="X">
 	<img src="image/pic2.jpg" class="X">
-	<img src="image/pic3.jpg" class="X">
+	<img src="image/pic3.jpg" class="X"> -->
 	<h1>Hot Offers For You</h1>
+	<div class="D">
+		<div id="d">
+			<img src="image/nike.jpg" style="height: 40vh;">
+			<h3 class="R"><span>Lorem ipsum dolor sit amet,<br>$32<br></span>
+		<span>lorem ipsum dollor sit amet, consectetuer adipscing elit, sed diam nonummy nibh euis</span><br>
+		<button style="padding: 2%;margin: 2%;">Add to card</button></h3>	
+		</div>
+		<div id="e">
+			<img src="image/nike.jpg" style="height: 40vh;">
+			<h3 class="R"><span>Lorem ipsum dolor sit amet,<br>$32<br></span>
+		<span>lorem ipsum dollor sit amet, consectetuer adipscing elit, sed diam nonummy nibh euis</span><br>
+		<button style="padding: 2%;margin: 2%;">Add to card</button></h3>	
 
-	<div id="Q">
-		<img src="image/nike.jpg" class="R">
-		<h3 class="R"><span>Lorem ipsum dolor sit amet,<br>$32<br></span>
+		</div>
+	</div>
+	<div class="D" style="margin-top: 2%;">
+		<div id="d">
+			<img src="image/sho.jpg" style="height: 40vh;">
+			<h3 class="R"><span>Lorem ipsum dolor sit amet,<br>$32<br></span>
 		<span>lorem ipsum dollor sit amet, consectetuer adipscing elit, sed diam nonummy nibh euis</span><br>
-		<button style="padding: 2%;margin: 2%;">Add to card</button></h3>
-		<img src="image/nike.jpg" style="width:40%, height:25%;">
-		<h3>Lorem ipsum dolor sit amet,<br>$32<br><br>
+		<button style="padding: 2%;margin: 2%;">Add to card</button></h3>	
+		</div>
+		<div id="e">
+			<img src="image/nike.jpg" style="height: 40vh;">
+			<h3 class="R"><span>Lorem ipsum dolor sit amet,<br>$32<br></span>
 		<span>lorem ipsum dollor sit amet, consectetuer adipscing elit, sed diam nonummy nibh euis</span><br>
-		<button style="padding: 2%;margin: 2%;">Add to card</button></h3>
-	</div>	
+		<button style="padding: 2%;margin: 2%;">Add to card</button></h3>	
+		</div>
+	</div>
+	<h1 style="margin-top: 5%;">Best Selling</h1>
+	<ul class="sel">
+		<li><img src="image/nike.jpg"><br><span>Lorem ipsum dolor sit amet $32</span></li>
+		<li><img src="image/nike.jpg"><br><span>Lorem ipsum dolor sit amet $32</span></li>
+		<li><img src="image/nike.jpg"><br><span>Lorem ipsum dolor sit amet $32</span></li>
+		<li><img src="image/nike.jpg"><br><span>Lorem ipsum dolor sit amet $32</span></li>
+		<li><img src="image/nike.jpg"><br><span>Lorem ipsum dolor sit amet $32</span></li>
+	</ul>
+
+	
 </body>
 </html>
