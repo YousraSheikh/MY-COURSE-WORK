@@ -1,301 +1,335 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Navbar</title>
+	<title>NearStore</title>
+	<script src="https://kit.fontawesome.com/f70b73b03d.js" crossorigin="anonymous"></script>
 </head>
-<body>
-	<style>
-		
-		ul{
+<style type="text/css">
+	.body{
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+	.nav-1{
+		width: 100%;
+		height: 5vh;
+		display: flex;
+		/*background-color: red;*/
+	}
+	.nav-1-1{
+		width: 50%;
+		height: 100%;
+	}
+	.nav-1-2{
+		width: 50%;
+		height: 100%;
+	}
+	.nav-1-2 > ul{
 			display: flex;
 			margin: 0%;
 			padding: 0%;
 			list-style: none;
-			background-color: ;
 		}
-		
-		.pic{
-			width: 35vh;
-
-		}
-		.nav{
-			background-color: black;
-		    color: white;
-		    padding: 3vh;
-		}
-		.search{
-			width: 400%;
-		    margin:5%;
-		    padding: 5%;
-		    margin-left: 30%;
-		    border: solid;
-		    border-color: maroon;
-		}
-		.div{
-			width: 100%;
-			height: 70vh;
-			background-color: lightgrey;
-			display: flex;
-		}
-		#A{
-			display: flex;
-			flex-direction: column;
-			margin-left: 10%;
-		}
-		hr{
-			width: 100%;
-			color: black;
-		}
-		.div1{
-			background-image: url(image/camera2.jpg);
-			width: 70%;
-			height: 70vh;
-		}
-		.div2{
-			display: flex;
-			flex-direction: column;
-			margin: 15% 10% 5%;
-			font-size: 150%;
-		}
-		/*.circle{
-			margin-left: 200px;
-			height: 10vh;
-			width: 20px;
-		}
-		.round{
-			border:3px;
-			border-radius: 50%;
-			border:solid red;
-		}
-
-*/		
-          
-        .circles{
-        	display: flex;
-        	 }
-        .rounded > img{
-        	margin-left: 500px;
-        	border:solid red;
-            border-radius: 50%;
-  }
-            .rounded2 > img{
-        	margin-left: 50px;
-        	border:solid black;
-            border-radius: 50%;}
-
-        #Y{
-			margin-left:6%;
-			border-radius: 0px;
-			border:solid;
-			padding: 1% 2% ;
-			margin-top: 2%;
-			border-color: grey;
-		}
-		.X{
-			margin: 2% 2%;
-		}
-		.W{
-			width: 100%
-			height:100vh;
-		}
-		.D{
-			display: flex;
-			width: 100%;
-			height: 40vh;
-			
-		}
-		#d{
-			margin:2% 3%;
-			width: 50%;
-			height: 40vh;
-			border-color: ;
-			border:solid red;
-			display: flex;
-
-		}
-		#e{
-			margin:2% 3%;
-			width: 50%;
-			height:40vh;
-			display: flex;
-			border:solid red;
-
-		}
-		.H{
-			width: 100%;
-			height:15vh;
-			background-color: aqua;
-			margin: 2% 0%;
-			display: flex;
-		}
-		.sel{
-			margin: 2% 2%;
-		}
-		/*#Q{
-			display: flex;
-			flex-direction: row;
-			width: 100%;
-			height: 100%;
-			border:solid;
-			border-color:red;
-		}
-		.R{
-			border-color: red;
-			width:40%;	 
-			height:25%;
-		}
-		.T{
-			display: flex;
-			flex-direction: column;
-		}*/
-
-	</style>
-	<ul>
-		<li style="margin-left: 1%;">WELCOME TO NEARSTORE</li>
-		<li style="margin-left: 40%;">USD</li>
-		<li style="margin-left: 3%;">ENG</li>
-		<li style="margin-left: 3%;">Blog</li>
-		<li style="margin-left: 3%;">Contact Us</li>
-		<li style="margin-left: 3%;">My Account</li>
-		<li style="margin-left: 3%;">Sign In/Register</li>
-	</ul><hr>
-	<ul>
-		<li><img src="image/ns1.jpg" class="pic"></li>
-			<li>
-				<select class="search"><label>All Categories</label>
-					<option>Clothing</option>
-					<option>Toys</option>
-					<option>Watches</option>
-					<option>Shoes</option>
-					<option>Household Items</option>
-					<option>Furniture</option>
-					<option>Electronic Accessories</option>
-					<option>Decorations</option>
-					<option>Others</option>
-				</select>
-			</li>
-			<li style="margin-left: 43%; margin-top: 0%;">Call us at:<br>03XX-XXXXXXX</li>
-			<li style="margin-left: 2%; margin-top: 0%;">Wishlist</li>
-			<li style="margin-left: 2%; margin-top: 0%;">Compare</li>
-			<li style="margin-left: 2%; margin-top: 0%;">Cart</li>
-		</ul>
-
-	<ul class="nav">
-		<li class="A">Documents</li>
-		<li style="margin-left: 10%;">Home</li>
-		<li style="margin-left: 2%;">Shop</li>
-		<li style="margin-left: 2%;">Vendor</li>
-		<li style="margin-left: 2%;">Blog</li>
-		<li style="margin-left: 2%;">About Us</li>
-		<li style="margin-left: 45%;">Track Order</li>
-		<li style="margin-left: 2%;">Daily Detailes</li>
-	</ul>
-	<div class="div">
-	<div style="width: 30%;height: 70vh;">
-		<ul id="A">
-		<li style="margin-top: 2%;">Fashion</li><hr>
-		<li>Home and gardens</li><hr>
-		<li>Electronics</li><hr>
-		<li>Furniture</li><hr>
-		<li>Health and beauty</li><hr>	
-		<li>Gifts </li><hr>
-		<li>Toys</li><hr>
-		<li>Cooking and food</li><hr>
-		<li>Cameras</li><hr>
-		<li>Electronics</li><hr>
-		<li>Accessories</li><hr>
-		</ul>
-	</div>
-	<div class="div1">
-		<ul class="div2">
-			<li style="color: red;">FROM ONLINE STORE</li>
-			<li style="font-size: bold;">Nike Shoes</li>
-			<li>Recommended</li>
-			<li>Free shiping on all orders over $99.9</li>
-			<li><button style="padding: 2vh;margin-top: 2%;">SHOP NOW</button></li>
-		</ul>
-	</div>
-	</div>
-	<div class="circles">
-        <div class="rounded"><img src="image/headphones.jpg" height="90px" width="80px"></div>
-         <div class="rounded2"><img src="image/headphones.jpg" height="90px" width="80px"></div>
-         <div class="rounded2"><img src="image/headphones.jpg" height="90px" width="80px"></div>
-         <div class="rounded2"><img src="image/headphones.jpg" height="90px" width="80px"></div>
-    </div>
-
-
-	<div class="W">
-	<ul >
-		<li id="Y">Money back Gurantee<br>Any back within 3 days</li>
-		<li id="Y">Customer Support<br>Call or email us 24/7</li>
-		<li id="Y">Free shipping & returns<br>For all orders over $99</li>
-		<li id="Y">Secure payment<br>we ensure secure payments</li>
-	</ul>
-    </div>
-     <div style="width: 100%;height:17vh;margin: 2%;display: flex;">
-    <div style="width: 33%; height:17vh; background-color: lightgrey; display: flex;margin: 0% 2%;">
-    	 <ul style="width: 50%;display: flex; flex-direction: column; margin: 2%;" >
-    	 <li>Fashion's</li>
-    	 <li> Starting at $27</li>
-    	 <li> Shop now &rarr</li></ul>
-    	 <img src="image/f.jpg" style="width: 50%; height:17vh;">
-    </div>
-    <div style="width: 33%; height:17vh; background-color: lightgrey; display: flex;margin: 0% 2%">
-    	<ul style="width: 50%;height:17vh; display: flex; flex-direction: column; margin: 2%;" >
-    	 <li>Fashion's</li>
-    	 <li> Starting at $27</li>
-    	 <li> Shop now &rarr</li></ul>
-    	 <img src="image/phones.jpg" style="width: 50%; height:17vh;"></ul>
-    </div>
-    <div style="width: 34%; height:17vh; background-color:lightgrey; margin: 0% 2%; display: flex;">
-    	<ul style="width: 50%;height:17vh;display: flex; flex-direction: column; margin: 2%;" >
-    	 <li>Fashion's</li>
-    	 <li> Starting at $27</li>
-    	 <li> Shop now &rarr</li></ul>
-    	 <img src="image/f.jpg" style="width: 50%; height:17vh;"></ul>
-    </div>
-</div> 
-	<!-- <img src="image/pic1.jpg" class="X">
-	<img src="image/pic2.jpg" class="X">
-	<img src="image/pic3.jpg" class="X">  -->
-	<h1>Hot Offers For You</h1>
-	<div class="D">
-		<div id="d">
-			<img src="image/nike.jpg" style="height: 40vh;">
-			<h3 class="R"><span>Lorem ipsum dolor sit amet,<br>$32<br></span>
-		<span>lorem ipsum dollor sit amet, consectetuer adipscing elit, sed diam nonummy nibh euis</span><br>
-		<button style="padding: 2%;margin: 2%;">Add to card</button></h3>	
-		</div>
-		<div id="e">
-			<img src="image/nike.jpg" style="height: 40vh;">
-			<h3 class="R"><span>Lorem ipsum dolor sit amet,<br>$32<br></span>
-		<span>lorem ipsum dollor sit amet, consectetuer adipscing elit, sed diam nonummy nibh euis</span><br>
-		<button style="padding: 2%;margin: 2%;">Add to card</button></h3>	
-
-		</div>
-	</div>
-	<div class="D" style="margin-top: 2%;">
-		<div id="d">
-			<img src="image/sho.jpg" style="height: 40vh;">
-			<h3 class="R"><span>Lorem ipsum dolor sit amet,<br>$32<br></span>
-		<span>lorem ipsum dollor sit amet, consectetuer adipscing elit, sed diam nonummy nibh euis</span><br>
-		<button style="padding: 2%;margin: 2%;">Add to card</button></h3>	
-		</div>
-		<div id="e">
-			<img src="image/nike.jpg" style="height: 40vh;">
-			<h3 class="R"><span>Lorem ipsum dolor sit amet,<br>$32<br></span>
-		<span>lorem ipsum dollor sit amet, consectetuer adipscing elit, sed diam nonummy nibh euis</span><br>
-		<button style="padding: 2%;margin: 2%;">Add to card</button></h3>	
-		</div>
-	</div>
-	<h1 style="margin-top: 5%;">Best Selling</h1>
-	<ul>
-		<li class="sel"><img src="image/nike.jpg"><br><span>Lorem ipsum dolor sit amet $32</span></li>
-		<li class="sel"><img src="image/nike.jpg"><br><span>Lorem ipsum dolor sit amet $32</span></li>
-		<li class="sel"><img src="image/nike.jpg"><br><span>Lorem ipsum dolor sit amet $32</span></li>
-		<li class="sel"><img src="image/nike.jpg"><br><span>Lorem ipsum dolor sit amet $32</span></li>
-	</ul>
-
+	.nav-2{
+		height: 10vh;
+		width: 100%;
+	}
+	.nav-2 > ul{
+		display: flex;
+		list-style: none;
+		/*background-color: yellow;*/
+	}
+	.search{
+		width: 50%;
+	    padding: ;
+	    margin-left: 2%;
+		/*border: solid;*/
+	    /*border-color: maroon;*/
+	}
+	.search-1{
+		width: 95%;
+	    padding: 1% 10% 1% 0%;
+	    margin: 1% 2%;
+	    border: solid;
+	    border-color: maroon;
+	}
+	.icon{
+		font-size: 20px;
+	}
+	.nav-3{
+		height: 10vh;
+		width: 100%;
+		background-color: black;
+		color: white;
+		display: flex;
+	}
+	.nav-3 > div:nth-child(1) {
+		width: 15%;
+		height: 100%;
+		background-color: red;
+		display: flex;
+		flex-direction: column!important;
+		margin-left: 1%; 
+	}
+	.nav-3 > div:nth-child(1) > p{
+		margin-left: 5%;
+	}
+	.nav-3 > div:nth-child(1) > p > i{
+		float: right;
+	}
+	.nav-3 > div:nth-child(2){
+		width: 60%;
+		height: 100%;
 	
-</body>
+	}
+	.nav-3 > div:nth-child(2) > ul{
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+	}
+	.nav-3 > div:nth-child(2) > ul > li{
+		margin-left: 4%;
+	}
+	.nav-3 > div:nth-child(3){
+		width: 25%;
+		height: 100%;
+	
+	}
+	.nav-3 > div:nth-child(3) > ul{
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+	}
+	.nav-3 > div:nth-child(3) > ul > li{
+		margin-left: 4%;
+	}
+	.wrapper{
+		width: 100%;
+		height: 75vh;
+		display: flex;
+	}
+	.child-1{
+		width: 15%;
+		height: 100%;
+		/*background-color: green;*/
+		margin-left: 1%;
+	}
+	.child-1 > ul {
+			list-style: none;
+	}
+	.child-2{
+		width: 85%;
+		height: 100%;
+		/*background-color: aqua;*/
+		background-image: url(image/camera2.jpg);
+		background-size: cover; 
+	}
+	.div2{
+		display: flex;
+		flex-direction: column;
+		margin: 15% 10% 5%;
+		font-size: 150%;
+		list-style: none;
+	}
+	.circles{
+        display: flex;
+        margin-top: -3%;
+    }
+    .rounded > img{
+        margin-left: 500px;
+      	border:solid red;
+        border-radius: 50%;
+  	}
+    .rounded2 > img{
+    	margin-left: 50px;
+      	border:solid black;
+        border-radius: 50%;
+    }
+	.section{
+		width: 100%;
+		height: 12vh;
+		/*background-color: blue;*/
+		display: flex;
+		margin: 2%;
+	}
+	.section1{
+		width: 18%;
+		height: 100%;
+		border: solid;
+		border-color: grey;
+		margin-left: 3%;
+		display: flex;
+	}
+	.section1 > div:nth-child(1){
+		width: 20%;
+		height: 100%;
+		/*background-color: yellow;*/
+	}
+	.section1 > div:nth-child(1)> i {
+		margin-top: 25%;
+		margin-left: 10%;
+		font-size: 210%; 
+	}
+	.section1 > div:nth-child(2){
+		width: 80%;
+		height: 100%;
+		/*background-color: green;*/
+	}
+	.pics3{
+		width: 100%;
+		height: 20vh;
+		display: flex;
+		background-color: red;
+	}
+	.pic3-1{
+		width: 30%;
+		height: 100%;
+		background-color: blue;
+		border: solid;
+		margin-left: 2%;
+		display: flex;
+	}
+	.pic3-1 > div:nth-child(1){
+		width: 40%;
+		height: 100%;
+		margin-left: 3%;
+		/*background-color: brown;*/
+	}
+	.pic3-1 > div:nth-child(2){
+		width: 35%;
+		height: 100%;
+		/*background-color: aqua;*/
+	}
+	.pic3-2{
+		width: 30%;
+		height: 100%;
+		background-color: green;
+		border: solid;
+		margin-left: 2%;
+	}.pic3-3{
+		width: 30%;
+		height: 100%;
+		background-color: orange;
+		border: solid;
+		margin-left: 2%;
+	}
+</style>
+	<body>
+	<div class="body">
+		<div class="nav-1 ">
+			<div class="nav-1-1">WELCOME TO NEAR STORE</div>
+			<div class="nav-1-2">
+				<ul>
+					<li style="margin-left: 20%;">USD<i class="fa-solid fa-caret-down"></i></li>
+					<li style="margin-left: 3%;">ENG<i class="fa-solid fa-caret-down"></i></li>
+					<li style="margin-left: 3%;">Blog</li>
+					<li style="margin-left: 3%;">Contact Us</li>
+					<li style="margin-left: 3%;">My Account</li>
+					<li style="margin-left: 3%;"><i class="fa-solid fa-user"></i>SignIn/Register</li>
+				</ul>
+			</div>
+		</div><hr>
+		<div class="nav-2">
+			<ul>
+				<li><img src="image/ns1.jpg" style="padding: 2% 0% 3% 0%;"></li>
+				<li class="search" >
+					<select class="search-1" ><label>All Categories</label>
+						<option>Clothing</option>
+						<option>Toys</option>
+						<option>Watches</option>
+						<option>Shoes</option>
+						<option>Household Items</option>
+						<option>Furniture</option>
+						<option>Electronic Accessories</option>
+						<option>Decorations</option>
+						<option>Others</option>
+					</select>
+				</li>
+				<li style="margin-left: 5%;"><i class="fa-solid fa-phone icon"></i><br>Contact us at:<br>0307-4810673</li>
+				<li style="margin-left: 2%;"><i class="fa-solid fa-heart icon"></i><br>Wishlist</li>
+				<li style="margin-left: 2%;"><i class="fa-solid fa-arrow-right-arrow-left icon"></i><br>Compare</li>
+				<li style="margin-left: 2%;"><i class="fa-solid fa-cart-shopping icon"></i><br>Cart</li> 			
+			</ul>
+		</div>
+		<div class="nav-3">
+			<div><p>Browse Categories<i class="fa-solid fa-caret-down"></i></p></div>
+			<div>
+				<ul>
+					<li>Home</li>
+					<li>Shop<i class="fa-solid fa-caret-down"></i></li>
+					<li>Vendor<i class="fa-solid fa-caret-down"></i></li>
+					<li>Blog<i class="fa-solid fa-caret-down"></i></li>
+					<li>About Us</li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li>Track Order</li>
+					<li>Daily Deals</li>
+				</ul>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="child-1">
+				<ul>
+					<li><i class="fa-solid fa-shirt"></i>Fashion</li><hr>
+					<li><i class="fa-solid fa-house"></i>Home and gardens</li><hr>
+					<li><i class="fa-solid fa-headphones-simple"></i>Electronics</li><hr>
+					<li><i class="fa-solid fa-couch"></i>Furniture</li><hr>
+					<li><i class="fa-solid fa-book-medical"></i>Health and beauty</li><hr>	
+					<li><i class="fa-solid fa-gift"></i>Gifts </li><hr>
+					<li><i class="fa-solid fa-teddy-bear"></i>Toys</li><hr>
+					<li><i class="fa-solid fa-plate-utensils"></i>Cooking and food</li><hr>
+					<li><i class="fa-solid fa-camera"></i>Cameras</li><hr>
+					<li><i class="fa-solid fa-mobile"></i>Smart Phone</li><hr>
+					<li><i class="fa-solid fa-ballot-check"></i>Accessories</li><hr>
+				</ul>
+			</div>
+			<div class="child-2">
+				<div class="div1">
+					<ul class="div2">
+						<li style="color: red;">FROM ONLINE STORE</li>
+						<li style="font-size: 200%!important; margin-top: 1%;"><b>Nike Shoes</b></li>
+						<li style="margin-top: 1%;">Recommended</li>
+						<li style="margin-top: 1%;">Free shiping on all orders over $99.9</li>
+						<li><button style="padding: 2vh;margin-top: 2%;">SHOP NOW<i class="fa-solid fa-arrow-right"></i></button></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="circles">
+        	<div class="rounded"><img src="image/nike.jpg" height="90px" width="80px"></div>
+        	 <div class="rounded2"><img src="image/phones.jpg" height="90px" width="80px"></div>
+        	 <div class="rounded2"><img src="image/watches.jpg" height="90px" width="80px"></div>
+        	 <div class="rounded2"><img src="image/nike.jpg" height="90px" width="80px"></div>
+    	</div>
+    	<div class="section">
+			<div class="section1">
+				<div><i class="fa-solid fa-money-bill-transfer icon1"></i></div>
+				<div><p><b>Money back Gurantee</b><br>Any back within 3 days</p></div>
+			</div>
+			<div class="section1">
+				<div><i class="fa-solid fa-headphones icon1"></i></div>
+				<div><p><b>Customer Support</b><br>Call or email us 24/7</p></div>
+			</div>
+			<div class="section1">
+				<div><i class="fa-solid fa-person-biking icon1"></i></div>
+				<div><p><b>Free shipping & returns</b><br>For all orders over $99</p></div>
+			</div>
+			<div class="section1">
+				<div><i class="fa-solid fa-briefcase icon1"></i></div>
+				<div><p><b>Secure payment</b><br>we ensure secure payments</p></div>
+			</div>
+		</div>
+			<div class="pics3">
+				<div class="pic3-1">
+					<div><p><b>Fashion</b><br> STARTING AT <br>$27<br> SHOP NOW<i class="fa-solid fa-arrow-right"></i></p></div>
+					<div><img src="image/f.jpg"></div>
+				</div>
+				<div class="pic3-2"></div>
+				<div class="pic3-3"></div>
+			</div>
+    </div>
+    	
+	</body>
 </html>
