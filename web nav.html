@@ -179,39 +179,107 @@
 		width: 100%;
 		height: 20vh;
 		display: flex;
-		background-color: red;
+		/*background-color: red;*/
 	}
 	.pic3-1{
 		width: 30%;
 		height: 100%;
-		background-color: blue;
+		background-color: grey;
 		border: solid;
 		margin-left: 2%;
 		display: flex;
 	}
 	.pic3-1 > div:nth-child(1){
-		width: 40%;
+		width: 50%;
 		height: 100%;
 		margin-left: 3%;
-		/*background-color: brown;*/
 	}
 	.pic3-1 > div:nth-child(2){
-		width: 35%;
+		width: 50%;
 		height: 100%;
-		/*background-color: aqua;*/
 	}
 	.pic3-2{
 		width: 30%;
 		height: 100%;
-		background-color: green;
+		background-color: grey;
 		border: solid;
 		margin-left: 2%;
-	}.pic3-3{
+		display: flex;
+	}
+	.pic3-2 > div:nth-child(1){
+		width: 50%;
+		height: 100%;
+		margin-left: 3%;
+	}
+	.pic3-2 > div:nth-child(2){
+		width: 50%;
+		height: 100%;
+	}
+	
+	.pic3-3{
 		width: 30%;
 		height: 100%;
-		background-color: orange;
+		background-color: grey;
 		border: solid;
 		margin-left: 2%;
+		display: flex;
+	}
+	.pic3-3 > div:nth-child(1){
+		width: 50%;
+		height: 100%;
+		margin-left: 3%;
+		/*background-color: brown;*/
+	}
+	.pic3-3 > div:nth-child(2){
+		width: 50%;
+		height: 100%;
+		/*background-color: aqua;*/
+	}
+	.offer-section{
+		width: 100%;
+		height: 40vh;
+		display: flex;
+		/*background-color: yellow;*/
+	}
+	.offer-section > div:nth-child(1){
+		width: 47%;
+		height: 100%;
+		display: flex;
+		border: solid;
+		border-color: red;
+		margin-left: 2%;
+		/*background-color: red;*/
+	}
+	.PIC{
+		width: 40%;
+		height: 100%;
+		/*background-color: green;*/
+
+		}
+		.TEXT{
+			width: 60%;
+			height: 100%;
+			margin-left: 1%;
+		}
+	.offer-section > div:nth-child(2){
+		width: 47%;
+		height: 100%;
+		display: flex;
+		border: solid;
+		border-color: red;
+		margin-left: 2%;
+	}
+	.best-selling{
+		width: 100%;
+		height: 50vh;
+		display: flex;
+		flex-direction: row;
+	}
+	.best-selling-1{
+		width: 20%;
+		height: 100%;
+		margin-left: 1%; 
+		/*border: solid;*/
 	}
 </style>
 	<body>
@@ -324,10 +392,136 @@
 			<div class="pics3">
 				<div class="pic3-1">
 					<div><p><b>Fashion</b><br> STARTING AT <br>$27<br> SHOP NOW<i class="fa-solid fa-arrow-right"></i></p></div>
-					<div><img src="image/f.jpg"></div>
+					<div><img src="image/f.jpg" style="width: 100%; height: 100%; float:right;"></div>
 				</div>
-				<div class="pic3-2"></div>
-				<div class="pic3-3"></div>
+				<div class="pic3-2">
+					<div><p><b>Fashion</b><br> STARTING AT <br>$27<br> SHOP NOW<i class="fa-solid fa-arrow-right"></i></p></div>
+					<div><img src="image/sho.jpg" style="width: 100%; height: 100%; float:right;"></div>
+				</div>
+				<div class="pic3-3">
+					<div><p><b>Fashion</b><br> STARTING AT <br>$27<br> SHOP NOW<i class="fa-solid fa-arrow-right"></i></p></div>
+					<div><img src="image/m.jpg" style="width: 100%; height: 100%; float:right;"></div>
+				</div>
+			</div><br>
+			<h2>Hot Offers for you</h2>
+			<div class="offer-section">
+				<div>
+					<div class="PIC"><img src="image/nike.jpg" style="width: 100%; height: 80%;">
+						<ul style="display: flex; list-style: none; width: 80%; height: 20%;margin-top: -0.5%; justify-content: space-between;background-color: red;">
+							<li>02<br>Days</li>
+							<li>00<br>Hrs</li>
+							<li>05<br>Mins</li>
+							<li>35<br>Sec</li>
+						</ul>
+					</div>
+					<div class="TEXT">
+						<h4>Lorem ipsum dolor sit amet</h4>
+						...<br>
+						<b>$32</b><br>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<button style="padding: 2%;">Add to cart</button>
+					</div>
+				</div>
+				<div>
+					<div class="PIC"><img src="image/sho.jpg" style="width: 100%; height: 80%;">
+						<ul style="display: flex; list-style: none; width: 80%; height: 20%;margin-top: -0.5%; justify-content: space-between;background-color: red;">
+							<li>02<br>Days</li>
+							<li>00<br>Hrs</li>
+							<li>05<br>Mins</li>
+							<li>35<br>Sec</li>
+						</ul>
+					</div>
+					<div class="TEXT">
+						<h4>Lorem ipsum dolor sit amet</h4>
+						...<br>
+						<b>$32</b><br>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<button style="padding: 2%;">Add to cart</button>
+					</div>
+				</div>
+			</div>
+			<div class="offer-section" style="margin-top: 2%;">
+				<div>
+					<div class="PIC"><img src="image/player.jpg" style="width: 100%; height: 80%;">
+						<ul style="display: flex; list-style: none; width: 80%; height: 20%;margin-top: -0.5%; justify-content: space-between;background-color: red;">
+							<li>02<br>Days</li>
+							<li>00<br>Hrs</li>
+							<li>05<br>Mins</li>
+							<li>35<br>Sec</li>
+						</ul>
+					</div>
+					<div class="TEXT">
+						<h4>Lorem ipsum dolor sit amet</h4>
+						...<br>
+						<b>$32</b><br>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<button style="padding: 2%;">Add to cart</button>
+					</div>
+				</div>
+				<div>
+					<div class="PIC"><img src="image/watches.jpg" style="width: 100%; height: 80%;">
+						<ul style="display: flex; list-style: none; width: 80%; height: 20%;margin-top: -0.5%; justify-content: space-between;background-color: red;">
+							<li>02<br>Days</li>
+							<li>00<br>Hrs</li>
+							<li>05<br>Mins</li>
+							<li>35<br>Sec</li>
+						</ul>
+					</div>
+					<div class="TEXT">
+						<h4>Lorem ipsum dolor sit amet</h4>
+						...<br>
+						<b>$32</b><br>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<button style="padding: 2%;">Add to cart</button>
+					</div>
+				</div>
+			</div>
+			<h2>Best Sellings</h2>
+			<div class="best-selling">
+				<div class="best-selling-1">
+					<img src="image/sho.jpg" style="height: 80%; width: 100%;">
+					<p style="width: 100%; height: 20%; margin-left: 3%;">Lorem ipsum<br><b>$15</b></p>
+				</div>
+				<div class="best-selling-1">
+					<img src="image/player.jpg" style="height: 80%; width: 100%;">
+					<p style="width: 100%; height: 20%; margin-left: 3%;">Lorem ipsum<br><b>$45</b></p>
+				</div>
+				<div class="best-selling-1">
+					<img src="image/watches.jpg" style="height: 80%; width: 100%;">
+					<p style="width: 100%; height: 20%; margin-left: 3%;">Lorem ipsum<br><b>$70</b></p>
+				</div>
+				<div class="best-selling-1">
+					<img src="image/phones.jpg" style="height: 80%; width: 100%;">
+					<p style="width: 100%; height: 20%; margin-left: 3%;">Lorem ipsum<br><b>$35</b></p>
+				</div>
+				<div class="best-selling-1">
+					<img src="image/nike.jpg" style="height: 80%; width: 100%;">
+					<p style="width: 100%; height: 20%; margin-left: 3%;">Lorem ipsum<br><b>$30</b></p>
+					<p style="width: 100%; height: 10%;"><b>$15</b></p>
+				</div>
+			</div>
+			<div class="best-selling" style="margin-top: 1%;">
+				<div class="best-selling-1">
+					<img src="image/sho.jpg" style="height: 80%; width: 100%;">
+					<p style="width: 100%; height: 20%; margin-left: 3%;">Lorem ipsum<br><b>$15</b></p>
+				</div>
+				<div class="best-selling-1">
+					<img src="image/player.jpg" style="height: 80%; width: 100%;">
+					<p style="width: 100%; height: 20%; margin-left: 3%;">Lorem ipsum<br><b>$45</b></p>
+				</div>
+				<div class="best-selling-1">
+					<img src="image/watches.jpg" style="height: 80%; width: 100%;">
+					<p style="width: 100%; height: 20%; margin-left: 3%;">Lorem ipsum<br><b>$70</b></p>
+				</div>
+				<div class="best-selling-1">
+					<img src="image/phones.jpg" style="height: 80%; width: 100%;">
+					<p style="width: 100%; height: 20%; margin-left: 3%;">Lorem ipsum<br><b>$35</b></p>
+				</div>
+				<div class="best-selling-1">
+					<img src="image/nike.jpg" style="height: 80%; width: 100%;">
+					<p style="width: 100%; height: 20%; margin-left: 3%;">Lorem ipsum<br><b>$30</b></p>
+					<p style="width: 100%; height: 10%;"><b>$15</b></p>
+				</div>
 			</div>
     </div>
     	
